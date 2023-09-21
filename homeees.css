@@ -1,0 +1,88 @@
+body{
+	background: Lightyellow; 
+align-items: center;
+display: flex;
+height: 100vh;
+flex-direction: column;
+background-color: #f0f0f0;
+background: url("rr.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    }
+*{
+font-family: sans-serif; 
+box-sizing: border-box;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+form {
+float: right;
+width: 1000px;
+border: 2px solid Lightgoldenrodyellow; 
+padding: 30px;
+background: goldenrod;
+border-radius: 15px;
+
+}
+h2{
+text-align: center; 
+margin-bottom: 40px;
+}
+h3 {
+    font-size: 40px;
+    color: lightgreen;
+    margin-bottom: 40px;
+}
+}
+input {
+	display: block;
+	border: 2px solid #brownx;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label{
+	color: whitesmoke;
+	font-size: 18px;
+	padding: 10px;
+}
+button{
+	float: right;
+	background: rgba(255, 150, 50, 1.0);
+	padding: 10px 10px;
+	color: darkred;
+	border-radius: 20px;
+	margin-right: 2px;
+	border: round(10, 10, 10);
+}
+
+button:hover{
+	opacity: .7;
+}
+
+p {
+	justify-content: center;
+}
+.ca{
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+.ca:hover{
+	text-decoration: underline;
+}
+.div1 {
+	float: right;
+	width: 500px;
+	border: 2px solid lightgoldenrodyellow;
+	padding: 30px;
+	border-radius: 15px;
+}
+

@@ -1,0 +1,64 @@
+/* Reset some default margin and padding */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;background: url("ht.jpg");
+    background-size: cover;
+    background-repeat: scroll;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* Style the container */
+#terms-form {
+
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    background: transparent;
+    background-size: cover;
+    background-repeat: space;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* Style the title */
+h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+form {
+float: right;
+width: 1000px;
+border: 2px solid Lightgoldenrodyellow; 
+padding: 30px;
+background: goldenrod;
+border-radius: 15px;
+}
+/* Style the textarea */
+label {
+    display: block;
+    font-weight: bold;
+    color: ;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+   

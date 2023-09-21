@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravina Terms and Conditions</title>
+    <link rel="stylesheet" type="text/css" href="CESESS.css">
+</head>
+<body>
+    <h1>HELLO WELCOME TO TEST TERMS AND CONDITIONS </h1>
+    <form id="terms-form">
+        <label style="background-color:whitesmoke;">Terms and Conditions:</label>
+        <textarea id="terms" name="terms" rows="10" cols="50">
+            Hello this is a Login form of 
+            Francis Rex Dominic Gravina
+            a sample Term and Condition 
+            --------------------------------------
+            --------------------------------------
+            --------------------------------------
+            --------------------------------------
+            --------------------------------------
+            --------------------------------------
+            --------------------------------------
+            --------------------------------------
+            --------------------------------------
+            --------------------------------------
+        </textarea>
+        <br>
+        <button type="submit">UNDERSTAND?</button>
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const termsForm = document.getElementById('terms-form');
+            const termsTextarea = document.getElementById('terms');
+
+
+            termsForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+
+                // Get the edited terms and conditions text
+                const editedTerms = termsTextarea.value;
+
+                // You can save the edited terms to your backend or perform other actions here
+                // For this example, we'll simply display an alert
+                alert('Terms and Conditions Updated:\n' + editedTerms);
+
+            });
+        });
+    </script>
+</body>
+</html>
